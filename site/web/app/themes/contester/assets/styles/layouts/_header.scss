@@ -1,7 +1,8 @@
 /* Conditions SASS */
 
-$primary-color: white;
-$background-color :#333;
+$font-h1:'Bangers', cursive;
+$font-inter:'Yanone Kaffeesatz', sans-serif;
+$font-p:'Lato', sans-serif;
 $header-background-color:#8aa29e;
 
 /*SCSS pour le header de la front-page. VERSION MOBILE */
@@ -45,6 +46,9 @@ width:2rem;
   padding-bottom: 0.5rem;
 }
 
+.logo a:hover, .facebook a:hover, .twitter a:hover {
+opacity: 0.5;
+}
 
 .logo img {
 width:7rem;
@@ -135,8 +139,7 @@ body input ~ nav > ul > li > a {
   text-decoration: none;
   text-transform: uppercase;
   color: #020304;
-  font-weight: 700;
-  font-family: sans-serif;
+  font-family: $font-p;
   display: block;
   padding: 30px;
 }
@@ -164,6 +167,10 @@ padding-bottom: 0.3rem;
 
 @media only screen and (min-width: 961px) {
 
+  .banner {
+    padding-bottom: 0.5rem;
+  }
+
 .menu-mobile{
   display:none;
 }
@@ -173,9 +180,11 @@ padding-bottom: 0.3rem;
 }
 
 .menu-desktop {
-  width: 800px;
+  width: 900px;
   display: flex;
   justify-content: space-around;
+  font-family: $font-p;
+  font-size: 1.5rem;
 }
 
 .header-top {
