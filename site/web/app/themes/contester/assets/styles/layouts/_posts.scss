@@ -1,0 +1,23 @@
+/*CODE SCSS POUR LES PAGES / MOBILE*/
+
+p {
+  font-family: $font-p;
+  font-size:1rem;
+}
+
+h1 {
+  font-family: $font-h1;
+  font-size: 3rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: $font-inter;
+}
+
+/*CODE SCSS POUR LES PAGES SUR DESKTOP*/
+@media only screen and (min-width: 961px) {
+.container {
+  max-width: 900px;
+}
+}
