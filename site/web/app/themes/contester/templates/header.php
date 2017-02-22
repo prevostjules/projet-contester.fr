@@ -1,6 +1,8 @@
 <header class="banner">
-  <div class="container">
-    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+  <div class="header-container">
+
+    <div class="logo-page"><img src="https://projet-contester.fr/app/uploads/2017/02/Logo-contester-1.png"/></div>
+
     <nav class="nav-primary">
       <?php
       if (has_nav_menu('primary_navigation')) :
