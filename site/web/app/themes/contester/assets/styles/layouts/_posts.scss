@@ -1,5 +1,9 @@
-/*CODE SCSS POUR LES PAGES / MOBILE*/
-
+/*CODE SCSS POUR LES POSTS / MOBILE*/
+.container {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
 p {
   font-family: $font-p;
   font-size:1rem;
@@ -15,9 +19,32 @@ h2 {
   font-family: $font-inter;
 }
 
+.head-post {
+  width: 100%;
+  height: auto;
+}
+
+.entry-title {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.entry-content, .comments {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
 /*CODE SCSS POUR LES PAGES SUR DESKTOP*/
 @media only screen and (min-width: 961px) {
-.container {
-  max-width: 900px;
+.entry-content, .comments {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.entry-title {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 }

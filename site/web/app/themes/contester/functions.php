@@ -26,10 +26,3 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
-
-//change text to leave a reply on comment form
-function isa_comment_reform ($arg) {
-$arg['title_reply'] = __('Tu peux commenter ici :');
-return $arg;
-}
-add_filter('comment_form_defaults','isa_comment_reform');
