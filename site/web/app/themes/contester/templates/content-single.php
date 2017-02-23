@@ -1,7 +1,8 @@
 <?php while (have_posts()) : the_post(); ?>
   <article <?php post_class(); ?>>
     <header>
-      <figure><img class="head-post" src<?php the_post_thumbnail(); ?></figure>
+      <figure><img class="head-post-desktop" src<?php the_post_thumbnail(); ?></figure>
+      <figure><img class="head-post-mobile" src="<?php the_field('second_image'); ?>" /></figure>
       <h1 class="entry-title"><?php the_title(); ?></h1>
     </header>
     <div class="entry-content">
