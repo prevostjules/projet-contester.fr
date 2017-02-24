@@ -5,7 +5,7 @@ $font-inter:'Teko', sans-serif;
 $font-p:'Oxygen', sans-serif;;
 $font-menu:'Teko', sans-serif;
 $font-chapo:'Ramaraja', serif;
-$header-background-color:#2D2D2D;
+$header-background-color:#000;
 
 
 /*SCSS pour le header de la front-page. VERSION MOBILE */
@@ -209,12 +209,12 @@ width:4rem;
 }
 
 .facebook {
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
 }
 .logo img {
-width:16rem;
-padding-top: 4rem;
-padding-bottom: 1rem;
+width:24rem;
+padding-top: 2rem;
+padding-bottom: 0.5rem;
 }
 .title {
   font-size: 7rem;
@@ -222,7 +222,7 @@ padding-bottom: 1rem;
 }
 
 .header-social-media{
-  padding-top:7rem;
+  padding-top: 10rem;
 }
 
 .logo-page img {

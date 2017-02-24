@@ -26,7 +26,7 @@
 </div>
       <div class="header-top">
         <div class="align"><img src="https://projet-contester.fr/app/uploads/2017/02/facebook.png"/></div>
-        <div class="logo"><a href="https://projet-contester.fr"><img src="https://projet-contester.fr/app/uploads/2017/02/Logo-contester-1.png"/></a></div>
+        <div class="logo"><a href="https://projet-contester.fr"><img src="https://projet-contester.fr/app/uploads/2017/02/Logo-contester-5.png"/></a></div>
         <div class="header-social-media">
           <div class="facebook"><a href="https://projet-contester.fr"><img src="https://projet-contester.fr/app/uploads/2017/02/facebook.png"/></a></div>
           <div class="twitter"><a href="https://projet-contester.fr"><img src="https://projet-contester.fr/app/uploads/2017/02/twitter.png"/></a></div>
