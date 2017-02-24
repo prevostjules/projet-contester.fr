@@ -5,19 +5,39 @@
     padding-right: 0px;
 }
 
+a {
+  font-weight: bold;
+  color: #000;
+}
+
+
 p {
   font-family: $font-p;
-  font-size:1rem;
+  font-size:1.2rem;
+  line-height: 2rem;
+  color:#000;
 }
 
 h1 {
   font-family: $font-h1;
-  font-size: 3rem;
-  text-align: center;
+  font-size: 3.5rem;
+  padding-top: 2rem;
+  padding-bottom: 1.7rem;
 }
 
 h2 {
   font-family: $font-inter;
+  text-transform: uppercase;
+  margin-top: 3rem;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.chapo {
+  font-family: $font-chapo;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
 }
 
 .head-post-mobile {
@@ -37,13 +57,13 @@ figure {
 
 .entry-title {
   max-width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
 }
 
 .entry-content, .comments {
-  margin-left: 1rem;
-  margin-right: 1rem;
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
 }
 
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
@@ -58,20 +78,33 @@ figure {
     width: 100%;
     height: auto;
   }
+  h1 {
+    text-align: center;
+  }
+
+  .chapo {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
 
 }
 
 /*CODE SCSS POUR LES POSTS SUR DESKTOP*/
 @media only screen and (min-width: 961px) {
 .entry-content, .comments {
-  width: 900px;
+  width: 750px;
   margin-left: auto;
   margin-right: auto;
 }
 .entry-title {
-  max-width: 600px;
+  max-width: 750px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.chapo {
+  text-align: center;
+  padding-bottom: 3rem;
 }
 
 .head-post-mobile {
@@ -83,5 +116,15 @@ figure {
   display:block;
   width: 100%;
   height: auto;
+}
+
+h1 {
+  padding-bottom: 3rem;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 5rem;
 }
 }

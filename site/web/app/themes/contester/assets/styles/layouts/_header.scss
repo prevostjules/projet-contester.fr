@@ -1,13 +1,19 @@
 /* Conditions SASS */
 
-$font-h1:'Bangers', cursive;
-$font-inter:'Yanone Kaffeesatz', sans-serif;
-$font-p:'Lato', sans-serif;
-$header-background-color:#8aa29e;
+$font-h1:'Teko', sans-serif;
+$font-inter:'Teko', sans-serif;
+$font-p:'Oxygen', sans-serif;;
+$font-menu:'Teko', sans-serif;
+$font-chapo:'Ramaraja', serif;
+$header-background-color:#2D2D2D;
+
 
 /*SCSS pour le header de la front-page. VERSION MOBILE */
+
 .banner {
   background-color: $header-background-color;
+  padding-bottom: 0.3rem;
+
 }
 
 .header-container {
@@ -57,8 +63,10 @@ padding-bottom: 1rem;
 }
 
 .title {
-  font-family: 'Bahiana', cursive;
+  font-family: $font-h1;
   font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 4px;
   background-color: $header-background-color;
   text-align: center;
   position:relative;
@@ -87,7 +95,7 @@ body input + label span {
   margin-top: -1px;
   left: 0;
   display: block;
-  background: #020304;
+  background: white;
   transition: .5s;
 }
 body input + label span:first-child {
@@ -129,25 +137,27 @@ body input ~ nav > ul {
   top: 30%;
   left: 15%;
   right: 15%;
+  padding-left: 0;
 }
-body input ~ nav > ul > li {
+body input ~ nav > ul > .test {
   opacity: 0;
   transition: .5s;
   transition-delay: 0s;
 }
-body input ~ nav > ul > li > a {
+body input ~ nav > ul > .test > a {
   text-decoration: none;
-  text-transform: uppercase;
-  color: #020304;
-  font-family: $font-p;
+  color: white;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: $font-menu;
   display: block;
-  padding: 30px;
+  padding: 1.2rem;
 }
 body input:checked ~ nav {
   height: 100%;
   transition-delay: 0s;
 }
-body input:checked ~ nav > ul > li {
+body input:checked ~ nav > ul > .test {
   opacity: 1;
   transition-delay: .5s;
 }
@@ -160,7 +170,7 @@ body input:checked ~ nav > ul > li {
 .logo-page img {
 width:4rem;
 padding-top: 0.3rem;
-padding-bottom: 0.3rem;
+padding-bottom: 0.1rem;
 }
 
 /*CODE SCSS pour le header front-page / DESKTOP*/
@@ -168,7 +178,7 @@ padding-bottom: 0.3rem;
 @media only screen and (min-width: 961px) {
 
   .banner {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.3rem;
   }
 
 .menu-mobile{
@@ -183,7 +193,9 @@ padding-bottom: 0.3rem;
   width: 900px;
   display: flex;
   justify-content: space-around;
-  font-family: $font-p;
+  font-family: $font-menu;
+  color: white;
+  font-weight: 400;
   font-size: 1.5rem;
 }
 
@@ -206,6 +218,7 @@ padding-bottom: 1rem;
 }
 .title {
   font-size: 7rem;
+  letter-spacing: 8px;
 }
 
 .header-social-media{

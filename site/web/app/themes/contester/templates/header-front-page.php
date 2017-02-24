@@ -6,18 +6,21 @@
 <div class="menu-mobile">
                 <input id="burger" type="checkbox" />
 
+
               <label for="burger">
               <span></span>
               <span></span>
               <span></span>
               </label>
 
+
+
               <nav>
               <ul>
-              <li><a href="#">LE PROJET</a></li>
-              <li><a href="#">QUI SUIS-JE ?</a></li>
-              <li><a href="#">LES AUTEURS</a></li>
-              <li><a href="#">CONTACT</a></li>
+              <div class="test"><a href="#">Le projet</a></div class="test">
+              <div class="test"><a href="#">Qui suis-je ?</a></div class="test">
+              <div class="test"><a href="#">Les auteurs</a></div class="test">
+              <div class="test"><a href="#">Contact</a></div class="test">
               </ul>
               </nav>
 </div>
@@ -37,10 +40,10 @@
     </div>
       <div class="menu-desktop-container">
       <div class="menu-desktop">
-      <div class='menu1'>LE PROJET</div>
-        <div class='menu2'>QUI SUIS-JE ?</div>
-        <div class="menu3">LES AUTEURS</div>
-        <div class="menu4">CONTACT</div>
+      <div class='menu1'>Le projet</div>
+        <div class='menu2'>Qui-suis-je ?</div>
+        <div class="menu3">Les auteurs</div>
+        <div class="menu4">Contact</div>
 </div>
     </div>
     <nav class="nav-primary">
