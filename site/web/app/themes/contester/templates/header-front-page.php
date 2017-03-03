@@ -5,8 +5,6 @@
 
 <div class="menu-mobile">
                 <input id="burger" type="checkbox" />
-
-
               <label for="burger">
               <span></span>
               <span></span>
@@ -40,10 +38,10 @@
     </div>
       <div class="menu-desktop-container">
       <div class="menu-desktop">
-      <div class='menu1'>Le projet</div>
-        <div class='menu2'>Qui-suis-je ?</div>
-        <div class="menu3">Les auteurs</div>
-        <div class="menu4">Contact</div>
+      <div class='menu1'><a href="https://projet-contester.fr">Le projet</a></div>
+        <div class='menu2'><a href="https://projet-contester.fr">Qui-suis-je ?</a></div>
+        <div class="menu3"><a href="https://projet-contester.fr">Les auteurs</a></div>
+        <div class="menu4"><a href="https://projet-contester.fr">Contact</a></div>
 </div>
     </div>
     <nav class="nav-primary">
