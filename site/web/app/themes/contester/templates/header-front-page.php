@@ -15,10 +15,10 @@
 
               <nav>
               <ul>
-              <div class="test"><a href="#">Le projet</a></div class="test">
-              <div class="test"><a href="#">Qui suis-je ?</a></div class="test">
-              <div class="test"><a href="#">Les auteurs</a></div class="test">
-              <div class="test"><a href="#">Contact</a></div class="test">
+              <div class="test"><a href="https://projet-contester.fr">Le projet</a></div class="test">
+              <div class="test"><a href="https://projet-contester.fr">Qui suis-je ?</a></div class="test">
+              <div class="test"><a href="https://projet-contester.fr">Les auteurs</a></div class="test">
+              <div class="test"><a href="https://projet-contester.fr">Contact</a></div class="test">
               </ul>
               </nav>
 </div>
