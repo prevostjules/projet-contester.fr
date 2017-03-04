@@ -41,6 +41,7 @@ function insert_fb_in_head() {
 		return;
         echo '<meta property="og:title" content="' . get_the_title() . '"/>';
         echo '<meta property="og:type" content="article"/>';
+        echo '<meta property="og:description" content="' . get_the_excerpt() . '"/>';
         echo '<meta property="og:url" content="' . get_permalink() . '"/>';
 	if(!has_post_thumbnail( $post->ID )) { //the post does not have featured image, use a default image
 		$default_image="https://projet-contester.fr/app/uploads/2017/02/Logo-contester-5.png"; //replace this with a default image on your server or an image in your media library
