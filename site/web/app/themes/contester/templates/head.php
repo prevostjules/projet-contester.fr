@@ -9,7 +9,5 @@
   <link href="https://fonts.googleapis.com/css?family=Teko:400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ramaraja" rel="stylesheet">
-  <meta property="og:image" content="<?php the_post_thumbnail(); ?>" />
-  <meta property="og:description" content="<?php the_field('chapeau'); ?>" />
   <?php wp_head(); ?>
 </head>
