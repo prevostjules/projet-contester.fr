@@ -9,5 +9,8 @@
   <link href="https://fonts.googleapis.com/css?family=Teko:400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ramaraja" rel="stylesheet">
+  <meta property="og:image" content="thumbnail_image" />
+  <meta property="og:title" content="title" />
+  <meta property="og:description" content="chapeau" />
   <?php wp_head(); ?>
 </head>
