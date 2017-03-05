@@ -13,7 +13,12 @@
     <footer>
       <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
     </footer>
-    <div class="share">Partager ce contenu :</div>
-    <a target="_blank" title="Cliquez pour partager sur Facebook" href="https://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t<?php the_title();?>"rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"><img class="facebook" src="https://projet-contester.fr/app/uploads/2017/02/Logo-contester-5.png" alt="Cliquez pour partager sur Facebook"></a>
   </article>
+  <h3 class="share">Partager ce contenu :</h3>
+  <div class="social-share">
+  <a target="_blank" title="Cliquer pour partager sur Facebook" href="https://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t<?php the_title();?>"rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=500,width=700');return false;"><img class="facebook-share" src="https://projet-contester.fr/app/uploads/2017/03/facebook-share.png" alt="Cliquer pour partager sur Facebook"></a>
+  <a target="_blank" title="Cliquez pour partager sur Twitter" href="https://twitter.com/share?; ?>&text='<?php the_title();?>', via @projetcontester. À lire ici :" rel="nofollow" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=400,width=700');return false;"><img class="twitter-share" src="https://projet-contester.fr/app/uploads/2017/03/twitter-share.png" alt="Cliquer pour partager sur Twitter"></a>
+  <a target="_blank" title="Cliquer pour partager par mail" href="mailto:?subject='<?php the_title();?>' sur projet-contester.fr &body=Bonjour,%0A%0AJ'ai aimé l'article '<?php the_title();?>' sur le site projet-contester.fr. %0A%0AVoici le lien : <?php the_permalink() ?>%0A%0ABonne journée,"  rel="nofollow"><img class="mail-share" src="https://projet-contester.fr/app/uploads/2017/03/mail-share.png" alt="Cliquer pour partager par mail"></a>
+</div>
+<?php the_field('go_further'); ?>
 <?php endwhile; ?>

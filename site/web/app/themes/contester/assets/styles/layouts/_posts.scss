@@ -64,7 +64,7 @@ figure {
   padding-right: 1.3rem;
 }
 
-.entry-content, .comments {
+.entry-content, .share, .social-share {
   padding-left: 1.3rem;
   padding-right: 1.3rem;
 }
@@ -106,7 +106,7 @@ a::before {
 	left: 0;
 	z-index: -1;
 	width: 100%;
-	height: 105%;
+	height: 110%;
 	background-color: $header-background-color;
 	content: '';
 	-webkit-transition: -webkit-transform 0.2s;
@@ -124,7 +124,27 @@ a:focus::before {
 
 }
 
+.share h3{
+  font-family: $font-h1;
+  font-size: 2rem;
+}
 
+.share {
+  padding-top: 2.8rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.social-share img {
+  width: 4.8rem;
+}
+
+.social-share {
+  padding-bottom: 1rem;
+  justify-content: space-around;
+  display: flex;
+}
 
 
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
@@ -189,4 +209,27 @@ h1 {
 h2 {
   margin-top: 5rem;
 }
+
+.share h3{
+  font-family: $font-h1;
+  font-size: 2rem;
+}
+
+.share {
+  padding-top: 3.8rem;
+  padding-bottom: 3rem;
+}
+
+.social-share img {
+  width: 5.5rem;
+}
+
+.social-share {
+  padding-bottom: 2rem;
+  width:650px;
+  margin: auto;
+}
+
+
+
 }
