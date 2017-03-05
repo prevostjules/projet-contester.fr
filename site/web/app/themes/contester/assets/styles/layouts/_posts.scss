@@ -189,11 +189,27 @@ a:focus::before {
   max-width: 95%;
   font-size: 1rem;
   line-height: 1.3rem;
-  max-width: 100%;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
+.legende {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  padding-top: 0.5rem;
+
+}
+
+.fb-video {
+  display:none;
+}
+
+.fb-video-mobile {
+  max-width: 300px;
+  margin: auto;
+  padding-bottom: 1.8rem;
+
+}
 
 
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
@@ -240,7 +256,17 @@ a:focus::before {
     max-width: 750px;
     margin: auto;
   }
+  .fb-video {
+    display: block;
+    max-width: 550px;
+    margin: auto;
+    padding-bottom: 1.8rem;
+    padding-top:1.5rem;
+  }
 
+  .fb-video-mobile {
+    display:none;
+  }
 
 }
 
@@ -341,6 +367,18 @@ h2 {
   width:50%;
   max-width: 750px;
   margin: auto;
+}
+
+.fb-video {
+  display: block;
+  max-width: 550px;
+  margin: auto;
+  padding-bottom: 1.8rem;
+  padding-top:1.5rem;
+}
+
+.fb-video-mobile {
+  display:none;
 }
 
 }
