@@ -194,6 +194,8 @@ a:focus::before {
   margin-right: 1rem;
 }
 
+
+
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
@@ -232,6 +234,13 @@ a:focus::before {
   .entry-title {
     margin:auto;
   }
+
+  .youtube {
+    width:50%;
+    max-width: 750px;
+    margin: auto;
+  }
+
 
 }
 
@@ -326,6 +335,12 @@ h2 {
   max-width: 95%;
   font-size: 1rem;
   line-height: 1.3rem;
+}
+
+.youtube {
+  width:50%;
+  max-width: 750px;
+  margin: auto;
 }
 
 }
