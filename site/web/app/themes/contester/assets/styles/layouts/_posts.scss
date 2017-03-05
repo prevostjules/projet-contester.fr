@@ -1,4 +1,33 @@
 /*CODE SCSS POUR LES POSTS / MOBILE*/
+
+.date, .auteur, .dessin {
+  font-weight: 400;
+  font-family: $font-chapo;
+  font-size: 1.1rem;
+}
+
+.mode {
+  font-family: font-h1;
+  color: #FE0813;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  padding-top: 1.6rem;
+}
+
+.auteur {
+  padding-top: 2rem;
+}
+
+.dessin {
+  padding-top: 0.5rem;
+}
+
+.date {
+  padding-top: 0.5rem;
+  padding-bottom: 2.7rem;
+}
+
+
 .container {
     max-width: 100%;
     padding-left: 0px;
@@ -32,13 +61,15 @@ h2 {
   font-family: $font-inter;
   text-transform: uppercase;
   margin-top: 3rem;
+  margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: 400;
 }
 
 .chapo {
   font-family: $font-chapo;
-  font-size: 1.8rem;
+  font-weight: bold;
+  font-size: 1.5rem;
   line-height: 2rem;
   padding-bottom: 2rem;
 }
@@ -59,7 +90,6 @@ figure {
 }
 
 .entry-title {
-  max-width: 80%;
   padding-left: 1.3rem;
   padding-right: 1.3rem;
 }
@@ -146,9 +176,40 @@ a:focus::before {
   display: flex;
 }
 
+.encadre {
+  border-style: solid;
+  border-color: #FE0813;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.encadre p {
+  max-width: 95%;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  max-width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
 
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .mode {
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+  }
+
+  .date, .auteur, .dessin, .mode {
+    text-align: center;
+  }
+
+  .auteur {
+    padding-top: 2.7rem;
+  }
+
   .head-post-mobile {
     display:none;
 
@@ -168,12 +229,32 @@ a:focus::before {
     padding-bottom: 3rem;
   }
 
+  .entry-title {
+    margin:auto;
+  }
+
 }
 
 
 /*CODE SCSS POUR LES POSTS SUR DESKTOP*/
 @media only screen and (min-width: 961px) {
-.entry-content, .comments {
+
+  .mode {
+    font-size: 1.1rem;
+    padding-top: 0.5rem;
+  }
+
+  .date, .auteur, .dessin, .mode {
+    text-align: center;
+  }
+
+  .auteur {
+    padding-top: 2.7rem;
+  }
+  .date {
+    padding-bottom: 4rem;
+  }
+p, h1, h2, .chapo {
   width: 750px;
   margin-left: auto;
   margin-right: auto;
@@ -230,6 +311,21 @@ h2 {
   margin: auto;
 }
 
+.encadre {
+  border-style: solid;
+  border-color: #FE0813;
+  float: right;
+  width: 50%;
+  margin-left: 1em;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-top: 1rem;
+}
 
+.encadre p {
+  max-width: 95%;
+  font-size: 1rem;
+  line-height: 1.3rem;
+}
 
 }
