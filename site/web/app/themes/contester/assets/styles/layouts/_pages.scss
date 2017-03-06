@@ -385,3 +385,22 @@ body {
 
 }
 }
+
+/*CODE MOBILE POUR LA PAGE PROJET ET CONTACT*/
+
+.page-auteur {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.signature {
+  padding-top: 1.5rem;
+  text-align: right;
+}
+
+/*CODE ORDI POUR LA PAGE PROJET ET CONTACT*/
+@media only screen and (min-width: 961px) {
+  .page-auteur p, .signature p{
+    font-size: 1.3rem;
+  }
+}
