@@ -398,9 +398,18 @@ body {
   text-align: right;
 }
 
-/*CODE ORDI POUR LA PAGE PROJET ET CONTACT*/
+/*CODE ORDI POUR LA PAGE PROJET ET CONTACT ET QUI SUIS_JE*/
 @media only screen and (min-width: 961px) {
   .page-auteur p, .signature p{
     font-size: 1.3rem;
+  }
+  .center-page1 {
+      .card {
+        float:center;
+        max-width: 400px;
+        margin:auto;
+        margin-bottom: 2rem;
+      }
+
   }
 }
