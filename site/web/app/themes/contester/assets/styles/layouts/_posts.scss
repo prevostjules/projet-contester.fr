@@ -1,5 +1,5 @@
 /*CODE SCSS POUR LES POSTS / MOBILE*/
-.date, .auteur, .dessin {
+.date, .auteur1, .dessin {
   font-weight: 400;
   font-family: $font-chapo;
   font-size: 1.1rem;
@@ -13,7 +13,7 @@
   padding-top: 1.6rem;
 }
 
-.auteur {
+.auteur1 {
   padding-top: 2rem;
 }
 
@@ -164,11 +164,11 @@ figure {
     padding-top: 0.5rem;
   }
 
-  .date, .auteur, .dessin, .mode {
+  .date, .auteur1, .dessin, .mode {
     text-align: center;
   }
 
-  .auteur {
+  .auteur1 {
     padding-top: 2.7rem;
   }
 
@@ -225,11 +225,11 @@ figure {
     padding-top: 0.5rem;
   }
 
-  .date, .auteur, .dessin, .mode {
+  .date, .auteur1, .dessin, .mode {
     text-align: center;
   }
 
-  .auteur {
+  .auteur1 {
     padding-top: 2.7rem;
   }
   .date {
