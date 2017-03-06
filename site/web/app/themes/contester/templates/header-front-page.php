@@ -17,7 +17,7 @@
               <ul>
               <div class="test"><a href="https://projet-contester.fr">Le projet</a></div class="test">
               <div class="test"><a href="https://projet-contester.fr">Qui suis-je ?</a></div class="test">
-              <div class="test"><a href="https://projet-contester.fr">Les auteurs</a></div class="test">
+              <div class="test"><a href="https://projet-contester.fr/les-auteurs/">Les auteurs</a></div class="test">
               <div class="test"><a href="https://projet-contester.fr">Contact</a></div class="test">
               </ul>
               </nav>
@@ -40,7 +40,7 @@
       <div class="menu-desktop">
       <div class='menu1'><a href="https://projet-contester.fr">Le projet</a></div>
         <div class='menu2'><a href="https://projet-contester.fr">Qui-suis-je ?</a></div>
-        <div class="menu3"><a href="https://projet-contester.fr">Les auteurs</a></div>
+        <div class="menu3"><a href="https://projet-contester.fr/les-auteurs/">Les auteurs</a></div>
         <div class="menu4"><a href="https://projet-contester.fr">Contact</a></div>
 </div>
     </div>
