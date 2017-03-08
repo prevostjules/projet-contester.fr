@@ -23,8 +23,8 @@
 
         <header class="card__item card__header">
           <div class="card__item card__item--small auteur">Blanche Sabbah</div>
-          <div class="card__item card__item--small description">Je suis fan de dessins, j'ai fait des études de BD et de Lettres. Je publie des illustrations sur la page Facebook <a href="https://www.facebook.com/La-Nuit-Remue-646092082220650/" target="blank">La Nuit Remue</a> !<br><br><br></div>
-          <div class="card__item card__item--small article-auteur"><b>Illustratrice de :</b> <br>Tous les papiers</div>
+          <div class="card__item card__item--small description">J'ai fait deux ans en école de bande dessinée. Je publie des illustrations sur la page Facebook <a href="https://www.facebook.com/La-Nuit-Remue-646092082220650/" target="blank">La Nuit Remue</a>, ainsi que sur le blog <a href="http://casesdepart.blog.lemonde.fr" target="blank">Cases Départ</a>, sur la plateforme du journal Le Monde.<br><br></div>
+          <div class="card__item card__item--small article-auteur"><b>Illustratrice de :</b> <br><b>Tous les papiers</b></div>
         </header>
 
       </div>
