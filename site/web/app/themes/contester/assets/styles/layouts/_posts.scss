@@ -48,10 +48,11 @@ p {
 
 
 h1 {
-  font-family: $font-h1;
-  font-size: 3.5rem;
-  padding-top: 2rem;
+  font-family: $font-h1-true;
+  font-size: 2.5rem;
+  padding-top: 1rem;
   padding-bottom: 1.7rem;
+  line-height: 3.2rem;
 }
 
 h2 {
@@ -141,6 +142,7 @@ figure {
   font-size: 1rem;
   line-height: 1.3rem;
   padding-top: 0.5rem;
+  padding-bottom: 2rem;
 
 }
 
@@ -154,6 +156,7 @@ figure {
   padding-bottom: 1.8rem;
 
 }
+
 
 
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
@@ -264,8 +267,9 @@ p, h1, h2, .chapo {
 
 h1 {
   padding-bottom: 3rem;
-  font-size: 5rem;
+  font-size: 3.9rem;
   text-align: center;
+  line-height: 5.5rem;
 }
 
 h2 {
