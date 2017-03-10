@@ -157,6 +157,16 @@ figure {
 
 }
 
+.further img {
+  max-width: 100%;
+}
+
+.further-h1 {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
 
 
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
@@ -215,7 +225,13 @@ figure {
     display:none;
   }
 
+  .further img {
+    max-width: 100%;
+  }
 
+  .further-h1 {
+    font-size: 3rem;
+  }
 
 }
 
@@ -329,6 +345,19 @@ h2 {
 
 .fb-video-mobile {
   display:none;
+}
+
+.further img {
+  max-width: 750px;
+}
+
+.further {
+    max-width: 750px;
+    margin: auto;
+}
+
+.further-h1 {
+  font-size: 3rem;
 }
 
 /*Liens sur ordi*/

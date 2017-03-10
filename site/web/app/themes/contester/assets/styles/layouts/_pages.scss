@@ -145,7 +145,7 @@ body {
   }
 
   h1 {
-    font-size: 3.9rem
+    font-size: 2.7rem
   }
 
   .mode {
@@ -173,17 +173,21 @@ body {
     padding-top: 1rem;
   }
 
-  .card {
-    display: block;
-    margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    max-width: 750px;
 
-  }
+    .card {
+      display: block;
+      margin: auto;
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+      float: left;
+      max-width: 42.5%;
+      margin-left: 5%;
+    }
+
+
 
   h1 {
-    font-size: 3.9rem
+    font-size: 2.7rem
   }
 
   .mode {
@@ -363,13 +367,10 @@ body {
 
 
   .card {
-    display: block;
-    margin: auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    float: left;
-    max-width: 42.5%;
-    margin-left: 5%;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-left: 3%;
+    top: 50%;
   }
 
   .card__img {
