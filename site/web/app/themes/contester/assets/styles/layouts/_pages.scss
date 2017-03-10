@@ -367,10 +367,13 @@ body {
 
 
   .card {
-    display: inline-block;
-    margin-top: 1rem;
-    margin-left: 3%;
-    top: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    float: left;
+    max-width: 42.5%;
+    margin-left: 5%;
   }
 
   .card__img {
