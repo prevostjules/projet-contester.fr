@@ -59,6 +59,35 @@
 
     </div>
 
+    <div class="body-front-page-mobile">
+    <article class="card">
+      <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/l214-camera-au-poing-contre-les-abattoirs/'">
+
+        <figure class="card__feature-mobile">
+          <img src="https://projet-contester.fr/app/uploads/2017/03/video-choc-mobile.jpg" class="card__img" alt="waves">
+          <img src="https://projet-contester.fr/app/uploads/2017/03/videos-choc-desktop.jpg" class="card__img-desktop" alt="waves">
+        </figure>
+
+
+
+        <div class="card__box">
+
+          <header class="card__item card__header">
+            <h1 class="card__item card__item--small titre">L214, caméra au poing contre les abattoirs</h1>
+            <div class="card__item card__item--small mode">Mode de contestation : Vidéos chocs</div>
+            <div class="card__item card__item--small auteur">Romain Lima</div>
+          </header>
+
+          <section class="card__item card__body">
+            <div class="chapo">En posant ses caméras dans les abattoirs, l’association fondée en 2008 a réussi à mobiliser autour de la dénonciation du sort des animaux qui finissent dans nos assiettes. Elle est aujourd’hui en passe de gagner la bataille de l’image.</div>
+          </section>
+
+        </div>
+
+      </div>
+
+      </div>
+
 
 
   </article>

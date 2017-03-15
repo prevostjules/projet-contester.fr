@@ -69,7 +69,7 @@
 
             <header class="card__item card__header">
               <div class="card__item card__item--small auteur">Pauline Jallon</div>
-              <div class="card__item card__item--small description">Étudiante au CFJ, 71e promotion. Je suis branchée longs formats, sujets nouveaux et intéressants. Curieuse invétérée, Alsacienne de cœur mais cosmopolite dans l'âme. </div>
+              <div class="card__item card__item--small description">Étudiante au CFJ, 71e promotion. Je suis branchée longs formats, sujets nouveaux et intéressants. Curieuse invétérée, Alsacienne de cœur mais cosmopolite dans l'âme.<br><br><br></div>
               <div class="card__item card__item--small article-auteur"><b>Auteure de :</b> <a href="https://projet-contester.fr/petitions-en-ligne-trois-petits-clics-et-puis-sen-vont/">Pétitions en ligne :</a> <br><a href="https://projet-contester.fr/petitions-en-ligne-trois-petits-clics-et-puis-sen-vont/">trois petits clics et puis s’en vont</a></div>
             </header>
 
@@ -77,6 +77,29 @@
 
         </div>
         </div>
+
+        <div class="body-page-auteur">
+        <article class="card">
+          <div class="card__wrapper">
+
+            <figure class="card__feature-mobile">
+              <img src="https://projet-contester.fr/app/uploads/2017/03/Romain_Lima_crop.png" class="card__img" alt="waves">
+            </figure>
+
+
+
+            <div class="card__box">
+
+              <header class="card__item card__header">
+                <div class="card__item card__item--small auteur">Romain Lima</div>
+                <div class="card__item card__item--small description">Après avoir exploré les amphis de l’Université Paris I Panthéon-Sorbonne et validé un master en Relations internationales, j’ai atterri dans les couloirs du CFJ. À 25 ans passés, je reste curieux de tout, et parfois de n’importe quoi.</div>
+                <div class="card__item card__item--small article-auteur"><b>Auteur de :</b> <a href="https://projet-contester.fr/l214-camera-au-poing-contre-les-abattoirs/">L214, caméra au poing contre les abattoirs</a></div>
+              </header>
+
+            </div>
+
+          </div>
+          </div>
 
 </div>
 
