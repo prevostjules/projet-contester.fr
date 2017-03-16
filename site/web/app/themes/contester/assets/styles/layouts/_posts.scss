@@ -1,4 +1,9 @@
 /*CODE SCSS POUR LES POSTS / MOBILE*/
+
+.img-post img {
+  max-width: 100%;
+}
+
 .date, .auteur1, .dessin {
   font-weight: 400;
   font-family: $font-chapo;
@@ -111,6 +116,7 @@ figure {
   justify-content: center;
 }
 
+
 .social-share img {
   width: 4.8rem;
 }
@@ -171,6 +177,10 @@ figure {
 
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+  .img-post img {
+    max-width: 100%;
+  }
 
   .mode {
     font-size: 2rem;
@@ -233,11 +243,21 @@ figure {
     font-size: 3rem;
   }
 
+
 }
 
 
 /*CODE SCSS POUR LES POSTS SUR DESKTOP*/
 @media only screen and (min-width: 961px) {
+
+  .img-post  {
+    margin: auto;
+    width: 900px;
+  }
+
+  .img-post img {
+    max-width: 900px;
+  }
 
   .mode {
     font-size: 2rem;
@@ -301,6 +321,7 @@ h2 {
   padding-top: 3.8rem;
   padding-bottom: 3rem;
 }
+
 
 .social-share img {
   width: 5.5rem;
