@@ -17,7 +17,7 @@
         <header class="card__item card__header">
           <h1 class="card__item card__item--small titre">Les « jeûnes » font de la politique</h1>
           <div class="card__item card__item--small mode">Mode de contestation : Grève de la faim</div>
-          <div class="card__item card__item--small auteur">Cyrielle Chazal<br><br></div>
+          <div class="card__item card__item--small auteur">Cyrielle Chazal<br></div>
         </header>
 
         <section class="card__item card__body">
@@ -91,7 +91,34 @@
 
       </div>
 
+      <div class="body-front-page-mobile">
+      <article class="card">
+        <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/la-manifestation-toujours-la/'">
 
+          <figure class="card__feature-mobile">
+            <img src="https://projet-contester.fr/app/uploads/2017/03/manif-mobile-V1.jpg" class="card__img" alt="waves">
+            <img src="https://projet-contester.fr/app/uploads/2017/03/manif_desktop-V1.jpg" class="card__img-desktop" alt="waves">
+          </figure>
+
+
+
+          <div class="card__box">
+
+            <header class="card__item card__header">
+              <h1 class="card__item card__item--small titre">La manifestation ? Toujours là !</h1>
+              <div class="card__item card__item--small mode">Mode de contestation : Manifestations</div>
+              <div class="card__item card__item--small auteur">Clément Rouget</div>
+            </header>
+
+            <section class="card__item card__body">
+              <div class="chapo">Affaiblissement des syndicats, pétitions en ligne, nouvelles formes de contestations… Les raisons de penser que la manifestation traditionnelle appartient au passé semblent nombreuses. En France, elle reste pourtant un moyen privilégié de lutte contre le pouvoir politique.</div>
+            </section>
+
+          </div>
+
+        </div>
+
+        </div>
 
   </article>
 <?php endwhile; ?>

@@ -69,7 +69,7 @@
 
             <header class="card__item card__header">
               <div class="card__item card__item--small auteur">Pauline Jallon</div>
-              <div class="card__item card__item--small description">Étudiante au CFJ, 71e promotion. Je suis branchée longs formats, sujets nouveaux et intéressants. Curieuse invétérée, Alsacienne de cœur mais cosmopolite dans l'âme.<br><br><br></div>
+              <div class="card__item card__item--small description">Étudiante au CFJ, 71e promotion. Je suis branchée longs formats, sujets nouveaux et intéressants. Curieuse invétérée, Alsacienne de cœur mais cosmopolite dans l'âme.<br><br></div>
               <div class="card__item card__item--small article-auteur"><b>Auteure de :</b> <a href="https://projet-contester.fr/petitions-en-ligne-trois-petits-clics-et-puis-sen-vont/">Pétitions en ligne :</a> <br><a href="https://projet-contester.fr/petitions-en-ligne-trois-petits-clics-et-puis-sen-vont/">trois petits clics et puis s’en vont</a></div>
             </header>
 
@@ -100,6 +100,29 @@
 
           </div>
           </div>
+
+          <div class="body-page-auteur">
+          <article class="card">
+            <div class="card__wrapper">
+
+              <figure class="card__feature-mobile">
+                <img src="https://projet-contester.fr/app/uploads/2017/03/Clément_Rouget.jpg" class="card__img" alt="waves">
+              </figure>
+
+
+
+              <div class="card__box">
+
+                <header class="card__item card__header">
+                  <div class="card__item card__item--small auteur">Clément Rouget</div>
+                  <div class="card__item card__item--small description">Profondément curieux du monde, je cherche à l'appréhender, le saisir, le comprendre du mieux possible sous toutes ses facettes, dans sa complexité. Mordu d'actualité, j'aime la lire partout, sous toutes les plumes, françaises et internationales. #Infoaddict, notamment <a href="http://www.horizoninfos.com" target="blank">ici</a>.</div>
+                  <div class="card__item card__item--small article-auteur"><b>Auteur de :</b> <a href="https://projet-contester.fr/la-manifestation-toujours-la/">La manifestation ? Toujours là !</a></div>
+                </header>
+
+              </div>
+
+            </div>
+            </div>
 
 </div>
 
