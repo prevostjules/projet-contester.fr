@@ -1,6 +1,37 @@
 <?php while (have_posts()) : the_post(); ?>
   <?php get_template_part('templates/content', 'page'); ?>
 
+
+  <div class="body-front-page-mobile">
+  <article class="card">
+    <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/la-zad-de-a-a-z/'">
+
+      <figure class="card__feature-mobile">
+        <img src="https://projet-contester.fr/app/uploads/2017/03/ZAD-mobile.jpg" class="card__img" alt="waves">
+        <img src="https://projet-contester.fr/app/uploads/2017/03/ZAD-desktop.jpg" class="card__img-desktop" alt="waves">
+      </figure>
+
+
+
+      <div class="card__box">
+
+        <header class="card__item card__header">
+          <h1 class="card__item card__item--small titre">La ZAD de A à Z<br><br></h1>
+          <div class="card__item card__item--small mode">Mode de contestation : ZAD</div>
+          <div class="card__item card__item--small auteur">Louis Pillot<br></div>
+        </header>
+
+        <section class="card__item card__body">
+          <div class="chapo">Depuis plusieurs mois, des opposants à Cigéo, un projet d’enfouissements des déchets nucléaires, occupent le bois Lejuc (Meuse) et l’ont transformé en Zone à défendre (ZAD).</div>
+        </section>
+
+      </div>
+
+    </div>
+
+    </div>
+
+
   <div class="body-front-page-mobile">
   <article class="card">
     <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/les-jeunes-font-de-la-politique/'">

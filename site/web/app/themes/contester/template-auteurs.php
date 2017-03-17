@@ -124,6 +124,30 @@
             </div>
             </div>
 
+
+            <div class="body-page-auteur">
+            <article class="card">
+              <div class="card__wrapper">
+
+                <figure class="card__feature-mobile">
+                  <img src="https://projet-contester.fr/app/uploads/2017/03/Louis_Pillot.jpg" class="card__img" alt="waves">
+                </figure>
+
+
+
+                <div class="card__box">
+
+                  <header class="card__item card__header">
+                    <div class="card__item card__item--small auteur">Louis Pillot</div>
+                    <div class="card__item card__item--small description"><br><br>Étudiant en première année au CFJ. Branché sports et nouvelles technologies.</div>
+                    <div class="card__item card__item--small article-auteur"><br><br><br><b>Auteur de :</b> <a href="https://projet-contester.fr/la-zad-de-a-a-z/">La ZAD de A à Z</a><br><br></div>
+                  </header>
+
+                </div>
+
+              </div>
+              </div>
+
 </div>
 
 
