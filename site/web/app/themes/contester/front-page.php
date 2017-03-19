@@ -109,7 +109,7 @@
           <header class="card__item card__header">
             <h1 class="card__item card__item--small titre">L214, caméra au poing contre les abattoirs</h1>
             <div class="card__item card__item--small mode">Mode de contestation : Vidéos chocs</div>
-            <div class="card__item card__item--small auteur">Romain Lima</div>
+            <div class="card__item card__item--small auteur">Romain Lima<br><br></div>
           </header>
 
           <section class="card__item card__body">
