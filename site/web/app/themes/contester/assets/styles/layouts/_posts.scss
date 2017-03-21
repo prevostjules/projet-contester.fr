@@ -1,5 +1,9 @@
 /*CODE SCSS POUR LES POSTS / MOBILE*/
 
+ ul {
+   margin-top: 2rem;
+ }
+
 .display-desktop {
   display: none;
 }
@@ -75,6 +79,15 @@ h2 {
   margin-bottom: 1rem;
   font-size: 3rem;
   font-weight: 400;
+}
+
+h3 {
+  font-family: $font-inter;
+  font-size: 1.8rem;
+  text-align: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .chapo {
@@ -186,6 +199,9 @@ figure {
 /*CODE SCSS POUR LES POSTS SUR TABLETTE*/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
+  ul {
+    margin-top: 2.5rem;
+  }
 
   .display-desktop {
     display: block;
@@ -265,6 +281,10 @@ figure {
 
 /*CODE SCSS POUR LES POSTS SUR DESKTOP*/
 @media only screen and (min-width: 961px) {
+
+  ul {
+    margin-top: 2.5rem;
+  }
 
   .display-desktop {
     display: block;
