@@ -140,13 +140,36 @@
                   <header class="card__item card__header">
                     <div class="card__item card__item--small auteur">Louis Pillot</div>
                     <div class="card__item card__item--small description"><br><br>Étudiant en première année au CFJ. Branché sports et nouvelles technologies.</div>
-                    <div class="card__item card__item--small article-auteur"><br><br><br><b>Auteur de :</b> <a href="https://projet-contester.fr/la-zad-de-a-a-z/">La ZAD de A à Z</a><br><br></div>
+                    <div class="card__item card__item--small article-auteur"><br><br><br><b>Auteur de :</b> <a href="https://projet-contester.fr/la-zad-de-a-a-z/">La ZAD de A à Z</a><br><br><br></div>
                   </header>
 
                 </div>
 
               </div>
               </div>
+
+              <div class="body-page-auteur">
+              <article class="card">
+                <div class="card__wrapper">
+
+                  <figure class="card__feature-mobile">
+                    <img src="https://projet-contester.fr/app/uploads/2017/03/Sophie_Vincelot_crop.jpg" class="card__img" alt="waves">
+                  </figure>
+
+
+
+                  <div class="card__box">
+
+                    <header class="card__item card__header">
+                      <div class="card__item card__item--small auteur">Sophie Vincelot</div>
+                      <div class="card__item card__item--small description">Étudiante en deuxième année de journalisme. Avant le journalisme, j'ai passé quelques années sur les bancs d'universités de droit. Passionnée de cinéma et de culture en général, je travaille aussi pour un magazine spécialisé dans la construction.</div>
+                      <div class="card__item card__item--small article-auteur">Auteur de : </b><a href="https://projet-contester.fr/desobeissance-civile-lillegalite-au-nom-de-principes-superieurs/">Désobéissance civile :</a><br><a href="https://projet-contester.fr/desobeissance-civile-lillegalite-au-nom-de-principes-superieurs/">l’illégalité au nom de principes supérieurs</a></div>
+                    </header>
+
+                  </div>
+
+                </div>
+                </div>
 
 </div>
 
