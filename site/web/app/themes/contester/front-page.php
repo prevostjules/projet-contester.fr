@@ -82,7 +82,7 @@
           </header>
 
           <section class="card__item card__body">
-            <div class="chapo">Un an après sa naissance, les participants à Nuit debout souhaitent donner un nouveau départ au mouvement. Commissions, Biblio debout, réseaux sociaux… Avant le 1er avril 2017, CONTESTER vous explique ce qui ne s’est jamais arrêté.</div>
+            <div class="chapo">Un an après sa naissance, les participants à Nuit debout souhaitent donner un nouveau départ au mouvement. Commissions, Biblio debout, réseaux sociaux… CONTESTER vous explique ce qui ne s’est jamais arrêté.</div>
           </section>
 
         </div>

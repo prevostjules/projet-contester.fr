@@ -16,6 +16,12 @@
   max-width: 100%;
 }
 
+.fb-video-perso {
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
 .date, .auteur1, .dessin {
   font-weight: 400;
   font-family: $font-chapo;
@@ -267,6 +273,13 @@ figure {
     display:none;
   }
 
+  .fb-video-perso {
+    max-width: 900px;
+    margin:auto;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+  }
+
   .further img {
     max-width: 100%;
   }
@@ -297,6 +310,13 @@ figure {
   .img-post  {
     margin: auto;
     width: 900px;
+  }
+
+  .fb-video-perso {
+    max-width: 900px;
+    margin:auto;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
   }
 
   .img-post img {
