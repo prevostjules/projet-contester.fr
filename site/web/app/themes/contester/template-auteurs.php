@@ -163,13 +163,36 @@
                     <header class="card__item card__header">
                       <div class="card__item card__item--small auteur">Sophie Vincelot</div>
                       <div class="card__item card__item--small description">Étudiante en deuxième année de journalisme. Avant le journalisme, j'ai passé quelques années sur les bancs d'universités de droit. Passionnée de cinéma et de culture en général, je travaille aussi pour un magazine spécialisé dans la construction.</div>
-                      <div class="card__item card__item--small article-auteur">Auteur de : </b><a href="https://projet-contester.fr/desobeissance-civile-lillegalite-au-nom-de-principes-superieurs/">Désobéissance civile :</a><br><a href="https://projet-contester.fr/desobeissance-civile-lillegalite-au-nom-de-principes-superieurs/">l’illégalité au nom de principes supérieurs</a></div>
+                      <div class="card__item card__item--small article-auteur">Auteure de : </b><a href="https://projet-contester.fr/desobeissance-civile-lillegalite-au-nom-de-principes-superieurs/">Désobéissance civile :</a><br><a href="https://projet-contester.fr/desobeissance-civile-lillegalite-au-nom-de-principes-superieurs/">l’illégalité au nom de principes supérieurs</a></div>
                     </header>
 
                   </div>
 
                 </div>
                 </div>
+
+                <div class="body-page-auteur">
+                <article class="card">
+                  <div class="card__wrapper">
+
+                    <figure class="card__feature-mobile">
+                      <img src="https://projet-contester.fr/app/uploads/2017/03/Zoe_Pinet_crop.jpg" class="card__img" alt="waves">
+                    </figure>
+
+
+
+                    <div class="card__box">
+
+                      <header class="card__item card__header">
+                        <div class="card__item card__item--small auteur">Zoé Pinet</div>
+                        <div class="card__item card__item--small description"><br>Étudiante de la première promotion de l’<a href="http://www.ecolew.com" target="blank">École W</a>. Je suis passionnée de photos, vidéos, illustrations, journalisme, nouveaux formats et de musique. J’ai 17 ans et j’espère entrer au Centre de formation des journalistes (<a href="http://www.cfjparis.com" target="blank">CFJ</a>) dans 3 ans. </div>
+                        <div class="card__item card__item--small article-auteur">Auteure de : </b><a href="https://projet-contester.fr/la-nuit-debout-ne-sest-jamais-vraiment-arretee/">La Nuit debout</a><br><a href="https://projet-contester.fr/la-nuit-debout-ne-sest-jamais-vraiment-arretee/">ne s’est jamais vraiment arrêtée</a></div>
+                      </header>
+
+                    </div>
+
+                  </div>
+                  </div>
 
 </div>
 

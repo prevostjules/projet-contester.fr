@@ -62,6 +62,36 @@
     </div>
 
 
+    <div class="body-front-page-mobile">
+    <article class="card">
+      <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/la-nuit-debout-ne-sest-jamais-vraiment-arretee/'">
+
+        <figure class="card__feature-mobile">
+          <img src="https://projet-contester.fr/app/uploads/2017/03/nuit-debout-mobile.jpg" class="card__img" alt="waves">
+          <img src="https://projet-contester.fr/app/uploads/2017/03/nuit-debout-desktop.jpg" class="card__img-desktop" alt="waves">
+        </figure>
+
+
+
+        <div class="card__box">
+
+          <header class="card__item card__header">
+            <h1 class="card__item card__item--small titre">La Nuit debout ne s’est jamais vraiment arrêtée</h1>
+            <div class="card__item card__item--small mode">Mode de contestation : Nuit debout</div>
+            <div class="card__item card__item--small auteur">Louna D’hallivillée et Zoé Pinet</div>
+          </header>
+
+          <section class="card__item card__body">
+            <div class="chapo">Un an après sa naissance, les participants à Nuit debout souhaitent donner un nouveau départ au mouvement. Commissions, Biblio debout, réseaux sociaux… Avant le 1er avril 2017, CONTESTER vous explique ce qui ne s’est jamais arrêté.</div>
+          </section>
+
+        </div>
+
+      </div>
+
+      </div>
+
+
   <div class="body-front-page-mobile">
   <article class="card">
     <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/les-jeunes-font-de-la-politique/'">
@@ -82,7 +112,7 @@
         </header>
 
         <section class="card__item card__body">
-          <div class="chapo">Cesser de s'alimenter pour contester n'est pas nouveau, mais la recette d’un jeûne efficace a évolué. Au XXIe siècle, les jeûneurs mettent les bouchées doubles sur la communication.</div>
+          <div class="chapo"><br><br><br>Cesser de s'alimenter pour contester n'est pas nouveau, mais la recette d’un jeûne efficace a évolué. Au XXIe siècle, les jeûneurs mettent les bouchées doubles sur la communication.</div>
         </section>
 
       </div>
@@ -143,7 +173,7 @@
           </header>
 
           <section class="card__item card__body">
-            <div class="chapo">En posant ses caméras dans les abattoirs, l’association fondée en 2008 a réussi à mobiliser autour de la dénonciation du sort des animaux qui finissent dans nos assiettes. Elle est aujourd’hui en passe de gagner la bataille de l’image.</div>
+            <div class="chapo"><br>En posant ses caméras dans les abattoirs, l’association fondée en 2008 a réussi à mobiliser autour de la dénonciation du sort des animaux qui finissent dans nos assiettes. Elle est aujourd’hui en passe de gagner la bataille de l’image.</div>
           </section>
 
         </div>
