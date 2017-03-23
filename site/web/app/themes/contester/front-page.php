@@ -21,7 +21,7 @@
         </header>
 
         <section class="card__item card__body">
-          <div class="chapo"><br>Depuis plusieurs mois, des opposants à Cigéo, un projet d’enfouissements des déchets nucléaires, occupent le bois Lejuc (Meuse) et l’ont transformé en Zone à défendre (ZAD).</div>
+          <div class="chapo"><br>Depuis plusieurs mois, des opposants à Cigéo, un projet d’enfouissement des déchets nucléaires, occupent le bois Lejuc (Meuse) et l’ont transformé en Zone à défendre (ZAD).</div>
         </section>
 
       </div>
