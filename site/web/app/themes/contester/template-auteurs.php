@@ -194,6 +194,52 @@
                   </div>
                   </div>
 
+                  <div class="body-page-auteur">
+                  <article class="card">
+                    <div class="card__wrapper">
+
+                      <figure class="card__feature-mobile">
+                        <img src="https://projet-contester.fr/app/uploads/2017/03/Louna_Dhallivillée-crop.jpg" class="card__img" alt="waves">
+                      </figure>
+
+
+
+                      <div class="card__box">
+
+                        <header class="card__item card__header">
+                          <div class="card__item card__item--small auteur">Louna D'hallivillée<br></div>
+                          <div class="card__item card__item--small description"><br><br>Étudiante en première année à l’<a href="http://www.ecolew.com" target="blank">École W</a>, l’école de la création de contenu numérique. Passionnée par le voyage et la culture hispanique. CONTESTER est mon premier projet journalistique. </div>
+                          <div class="card__item card__item--small article-auteur">Auteure de : </b><a href="https://projet-contester.fr/la-nuit-debout-ne-sest-jamais-vraiment-arretee/">La Nuit debout</a><br><a href="https://projet-contester.fr/la-nuit-debout-ne-sest-jamais-vraiment-arretee/">ne s’est jamais vraiment arrêtée</a></div>
+                        </header>
+
+                      </div>
+
+                    </div>
+                    </div>
+
+                    <div class="body-page-auteur">
+                    <article class="card">
+                      <div class="card__wrapper">
+
+                        <figure class="card__feature-mobile">
+                          <img src="https://projet-contester.fr/app/uploads/2017/03/Delphine_Bernard-Bruls_crop.png" class="card__img" alt="waves">
+                        </figure>
+
+
+
+                        <div class="card__box">
+
+                          <header class="card__item card__header">
+                            <div class="card__item card__item--small auteur">Delphine Bernard-Bruls</div>
+                            <div class="card__item card__item--small description">Avant le <a href="http://www.cfjparis.com" target="blank">CFJ</a>, j'ai étudié les langues étrangères. Venue du Sud-Ouest, j'ai pour passions le pâté et le bon vin. Mes deux talents (indispensables au quotidien) : le trampoline et la connaissance par coeur de F.R.I.E.N.D.S.</div>
+                            <div class="card__item card__item--small article-auteur">Auteure de : </b><a href="https://projet-contester.fr/contester-a-gorge-deployee/">Contester à gorge déployée</a></div>
+                          </header>
+
+                        </div>
+
+                      </div>
+                      </div>
+
 </div>
 
 

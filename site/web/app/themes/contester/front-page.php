@@ -1,6 +1,63 @@
 <?php while (have_posts()) : the_post(); ?>
   <?php get_template_part('templates/content', 'page'); ?>
 
+  <div class="body-front-page-mobile">
+  <article class="card">
+    <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/la-zad-de-a-a-z/'">
+
+      <figure class="card__feature-mobile">
+        <img src="https://projet-contester.fr/app/uploads/2017/03/ZAD-mobile.jpg" class="card__img" alt="waves">
+        <img src="https://projet-contester.fr/app/uploads/2017/03/ZAD-desktop.jpg" class="card__img-desktop" alt="waves">
+      </figure>
+
+
+
+      <div class="card__box">
+
+        <header class="card__item card__header">
+          <h1 class="card__item card__item--small titre">La ZAD de A à Z</h1>
+          <div class="card__item card__item--small mode">Mode de contestation : ZAD</div>
+          <div class="card__item card__item--small auteur">Louis Pillot</div>
+        </header>
+
+        <section class="card__item card__body">
+          <div class="chapo"><br>Depuis plusieurs mois, des opposants à Cigéo, un projet d’enfouissements des déchets nucléaires, occupent le bois Lejuc (Meuse) et l’ont transformé en Zone à défendre (ZAD).</div>
+        </section>
+
+      </div>
+
+    </div>
+
+    </div>
+
+    <div class="body-front-page-mobile">
+    <article class="card">
+      <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/contester-a-gorge-deployee/'">
+
+        <figure class="card__feature-mobile">
+          <img src="https://projet-contester.fr/app/uploads/2017/03/artivisme-mobile.jpg" class="card__img" alt="waves">
+          <img src="https://projet-contester.fr/app/uploads/2017/03/artivisme-desktop.jpg" class="card__img-desktop" alt="waves">
+        </figure>
+
+
+
+        <div class="card__box">
+
+          <header class="card__item card__header">
+            <h1 class="card__item card__item--small titre">Contester à gorge déployée</h1>
+            <div class="card__item card__item--small mode">Mode de contestation : Rire</div>
+            <div class="card__item card__item--small auteur">Delphine Bernard-Bruls</div>
+          </header>
+
+          <section class="card__item card__body">
+            <div class="chapo">Armés de peinture à la craie et d’éclats de rire, des militants d’Attac ont « opacifié », le 13 mars dernier, la vitrine de l’Apple store du 6e arrondissement de Paris. Dans la protestation, les possibilités d’action sont nombreuses : eux ont choisi le rire.</div>
+          </section>
+
+        </div>
+
+      </div>
+
+      </div>
 
   <div class="body-front-page-mobile">
   <article class="card">
@@ -16,9 +73,9 @@
       <div class="card__box">
 
         <header class="card__item card__header">
-          <h1 class="card__item card__item--small titre">Désobéissance civile : l’illégalité au nom de principes supérieurs<br><br></h1>
+          <h1 class="card__item card__item--small titre">Désobéissance civile : l’illégalité au nom de principes supérieurs</h1>
           <div class="card__item card__item--small mode">Mode de contestation : Désobéissance civile</div>
-          <div class="card__item card__item--small auteur">Sophie Vincelot<br></div>
+          <div class="card__item card__item--small auteur">Sophie Vincelot</div>
         </header>
 
         <section class="card__item card__body">
@@ -32,64 +89,6 @@
     </div>
 
 
-  <div class="body-front-page-mobile">
-  <article class="card">
-    <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/la-zad-de-a-a-z/'">
-
-      <figure class="card__feature-mobile">
-        <img src="https://projet-contester.fr/app/uploads/2017/03/ZAD-mobile.jpg" class="card__img" alt="waves">
-        <img src="https://projet-contester.fr/app/uploads/2017/03/ZAD-desktop.jpg" class="card__img-desktop" alt="waves">
-      </figure>
-
-
-
-      <div class="card__box">
-
-        <header class="card__item card__header">
-          <h1 class="card__item card__item--small titre"><br>La ZAD de A à Z<br><br></h1>
-          <div class="card__item card__item--small mode"><br>Mode de contestation : ZAD</div>
-          <div class="card__item card__item--small auteur"><br><br>Louis Pillot<br></div>
-        </header>
-
-        <section class="card__item card__body">
-          <div class="chapo">Depuis plusieurs mois, des opposants à Cigéo, un projet d’enfouissements des déchets nucléaires, occupent le bois Lejuc (Meuse) et l’ont transformé en Zone à défendre (ZAD).</div>
-        </section>
-
-      </div>
-
-    </div>
-
-    </div>
-
-
-    <div class="body-front-page-mobile">
-    <article class="card">
-      <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/la-nuit-debout-ne-sest-jamais-vraiment-arretee/'">
-
-        <figure class="card__feature-mobile">
-          <img src="https://projet-contester.fr/app/uploads/2017/03/nuit-debout-mobile.jpg" class="card__img" alt="waves">
-          <img src="https://projet-contester.fr/app/uploads/2017/03/nuit-debout-desktop.jpg" class="card__img-desktop" alt="waves">
-        </figure>
-
-
-
-        <div class="card__box">
-
-          <header class="card__item card__header">
-            <h1 class="card__item card__item--small titre">La Nuit debout ne s’est jamais vraiment arrêtée</h1>
-            <div class="card__item card__item--small mode">Mode de contestation : Nuit debout</div>
-            <div class="card__item card__item--small auteur">Louna D’hallivillée et Zoé Pinet</div>
-          </header>
-
-          <section class="card__item card__body">
-            <div class="chapo">Un an après sa naissance, les participants à Nuit debout souhaitent donner un nouveau départ au mouvement. Commissions, Biblio debout, réseaux sociaux… CONTESTER vous explique ce qui ne s’est jamais arrêté.</div>
-          </section>
-
-        </div>
-
-      </div>
-
-      </div>
 
 
   <div class="body-front-page-mobile">
@@ -107,12 +106,12 @@
 
         <header class="card__item card__header">
           <h1 class="card__item card__item--small titre">Les « jeûnes » font de la politique</h1>
-          <div class="card__item card__item--small mode">Mode de contestation : Grève de la faim</div>
-          <div class="card__item card__item--small auteur">Cyrielle Chazal<br></div>
+          <div class="card__item card__item--small mode"><br>Mode de contestation : Grève de la faim</div>
+          <div class="card__item card__item--small auteur"><br>Cyrielle Chazal</div>
         </header>
 
         <section class="card__item card__body">
-          <div class="chapo"><br><br><br>Cesser de s'alimenter pour contester n'est pas nouveau, mais la recette d’un jeûne efficace a évolué. Au XXIe siècle, les jeûneurs mettent les bouchées doubles sur la communication.</div>
+          <div class="chapo"><br><br>Cesser de s'alimenter pour contester n'est pas nouveau, mais la recette d’un jeûne efficace a évolué. Au XXIe siècle, les jeûneurs mettent les bouchées doubles sur la communication.</div>
         </section>
 
       </div>
@@ -169,7 +168,7 @@
           <header class="card__item card__header">
             <h1 class="card__item card__item--small titre">L214, caméra au poing contre les abattoirs</h1>
             <div class="card__item card__item--small mode">Mode de contestation : Vidéos chocs</div>
-            <div class="card__item card__item--small auteur">Romain Lima<br><br></div>
+            <div class="card__item card__item--small auteur">Romain Lima<br></div>
           </header>
 
           <section class="card__item card__body">
@@ -181,6 +180,36 @@
       </div>
 
       </div>
+
+      <div class="body-front-page-mobile">
+      <article class="card">
+        <div class="card__wrapper" onclick="document.location='https://projet-contester.fr/la-nuit-debout-ne-sest-jamais-vraiment-arretee/'">
+
+          <figure class="card__feature-mobile">
+            <img src="https://projet-contester.fr/app/uploads/2017/03/nuit-debout-mobile.jpg" class="card__img" alt="waves">
+            <img src="https://projet-contester.fr/app/uploads/2017/03/nuit-debout-desktop.jpg" class="card__img-desktop" alt="waves">
+          </figure>
+
+
+
+          <div class="card__box">
+
+            <header class="card__item card__header">
+              <h1 class="card__item card__item--small titre">La Nuit debout ne s’est jamais vraiment arrêtée</h1>
+              <div class="card__item card__item--small mode">Mode de contestation : Nuit debout</div>
+              <div class="card__item card__item--small auteur">Louna D’hallivillée et Zoé Pinet</div>
+            </header>
+
+            <section class="card__item card__body">
+              <div class="chapo">Un an après sa naissance, les participants à Nuit debout souhaitent donner un nouveau départ au mouvement. Commissions, Biblio debout, réseaux sociaux… CONTESTER vous explique ce qui ne s’est jamais arrêté.</div>
+            </section>
+
+          </div>
+
+        </div>
+
+        </div>
+
 
       <div class="body-front-page-mobile">
       <article class="card">
@@ -202,7 +231,7 @@
             </header>
 
             <section class="card__item card__body">
-              <div class="chapo">Affaiblissement des syndicats, pétitions en ligne, nouvelles formes de contestations… Les raisons de penser que la manifestation traditionnelle appartient au passé semblent nombreuses. En France, elle reste pourtant un moyen privilégié de lutte contre le pouvoir politique.</div>
+              <div class="chapo">Affaiblissement des syndicats, pétitions en ligne, nouvelles formes de contestation… Les raisons de penser que la manifestation traditionnelle appartient au passé semblent nombreuses. En France, elle reste pourtant un moyen privilégié de lutte contre le pouvoir politique.</div>
             </section>
 
           </div>
