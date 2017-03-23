@@ -17,9 +17,7 @@
 }
 
 .fb-video-perso {
-  max-width: 100%;
-  margin-bottom: 1.5rem;
-  margin-top: 1.5rem;
+  display : none;
 }
 
 .date, .auteur1, .dessin {
@@ -186,7 +184,8 @@ figure {
 .fb-video-mobile {
   max-width: 300px;
   margin: auto;
-  padding-bottom: 1.8rem;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
 
 }
 
@@ -274,6 +273,7 @@ figure {
   }
 
   .fb-video-perso {
+    display: block;
     max-width: 900px;
     margin:auto;
     margin-bottom: 2.5rem;
@@ -313,6 +313,7 @@ figure {
   }
 
   .fb-video-perso {
+    display: block;
     max-width: 900px;
     margin:auto;
     margin-bottom: 2.5rem;
